@@ -33,6 +33,8 @@ python run.py
 By Default the app runs at port 3001 and can be accessed at http://0.0.0.0:3001/
 
 ## Findings
+* Resent model is used for identifying if dog is present in image or not.
+* OpenCV's implementation of Haar feature-based cascade classifiers is used to detect if human is present in image or not.
 * Final Inception Classifier used for dog breed classification reached test accuracy of 82.1770% which is much higher than classifier trained form scratch.
 * Model had a hard time and would often mismatch and misclassify dogbreeds that share a lot of same visual features i.e. hair texture, hair color etc. This can be improved by adding more examples of such classes and retraining.
 * Model can be improved by providing augmented data to cater for noisy images.
