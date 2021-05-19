@@ -11,7 +11,7 @@ Webapp for project is in **Webapp** folder.
 ## Problem Statement
 Goal of this project is to identify and classifiy dog breeds from input image. Before we can classify dog breeds, we also need to check if there is even a dog present in the image or not.
 This problem would require a model to take input as an image. CNNs are best known for their ability to automatically extract featres from images with out specifically defining. 
-Data set is divided in three groups Train, Validation and Test. Train and Validation sets are used during model training final model performance is evaluated on Test set. 
+Data set is divided in three groups Train, Validation and Test. Train and Validation sets are used during model training. Final model performance is evaluated on Test set. 
 Accuracy on test set is used as final evaluation metric.
 
 ## Installation
